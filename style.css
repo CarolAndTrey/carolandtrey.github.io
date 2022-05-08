@@ -242,7 +242,6 @@ img {vertical-align: middle;}
   text-align: center;
 
   position: relative;
-  padding: 20px;
 }
 
 .Section{
@@ -270,7 +269,7 @@ img {vertical-align: middle;}
   color: #536895;
   font-weight:lighter;
   margin: 0;
-  padding-top:25px;
+  padding-top:35px;
 }
 
 .DetailsText hr{
@@ -310,7 +309,7 @@ img {vertical-align: middle;}
 
 .Travel {
   /* background-color: rgb(191, 203, 220, .3); */
-  background-image: url("Images/Cropped5.jpg");
+  background-image: url("Images/Cropped5.1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -332,15 +331,22 @@ img {vertical-align: middle;}
 }
 
 /*RSVP Section*/
-.RSVP{
-  background-image: url("Images/Cropped4.jpg");
+.RSVPPic{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  position: relative;
 }
 
 .RSVPCaption {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width:100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0 auto;
+
   padding-top: 20px;
   padding-bottom: 50px;
 
@@ -349,17 +355,19 @@ img {vertical-align: middle;}
   font-family:"Biancha";
 }
 
-.RSVPText{
-  width:40%;
-  max-width: 300px;
-  padding-top: 3%;
-  padding-bottom: 8%;
-  margin: auto;
-  transform: translate(50%, -10%);
+.RSVPSection{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    padding-bottom: 30%;
+}
 
-  background-color: rgb(191, 203, 220, .6);
-  border-style: double;
-  border-color: #536895;
+.RSVPText{
+  position: absolute;
+  left: 25%;
+  width:50%;
+  padding-top: 3%;
+  margin: auto;
 }
 
 .RSVPText a{
@@ -375,6 +383,16 @@ img {vertical-align: middle;}
   color: #536895;
   background-color: rgb(191, 203, 220, 1);
   border: 1px solid #536895;
+}
+
+.RSVPText2{
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  width: 25%;
+  text-align: justify;
+  font-size: max(1.5vw,15px);
+  line-height: 100%;
 }
 
 /*Footer*/
