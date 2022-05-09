@@ -341,7 +341,10 @@ img {vertical-align: middle;}
 }
 
 @media only screen and (max-width: 650px) {
-  .RSVP {background-image: url("Images/Cropped4.1.jpg");}
+  .RSVP {
+    background-image: url("Images/Cropped4.1.jpg");
+    margin: 0 auto;
+  }
 }
 
 .RSVPSection{
