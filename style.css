@@ -344,7 +344,7 @@ img {vertical-align: middle;}
   .RSVP {
     background-image: url("Images/Cropped4.1.jpg");
     margin: 0 auto;
-    padding-bottom: 200px;
+    display: block;
   }
 }
 
