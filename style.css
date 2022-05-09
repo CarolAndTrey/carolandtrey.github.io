@@ -189,7 +189,7 @@ img {vertical-align: middle;}
   display: none;
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 650px) {
 .Menu{
   margin: 0 auto;
 }
@@ -293,13 +293,12 @@ img {vertical-align: middle;}
 
 
 /*Travel & Registry Sections*/
-.TravelLink, .RegistryLink{
+.TravelLink, .RegistryLink, .RSVPCaption{
   color: #536895;
   font-size: max(3vw,30px);
   letter-spacing: .2rem;
   font-family: "Biancha";
 
-  transform: translate(-50%, -50%);
   padding-top: 35px; /*This is for navbar spacing when clicked*/
 }
 
@@ -314,7 +313,7 @@ img {vertical-align: middle;}
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .TravelText{
@@ -331,43 +330,37 @@ img {vertical-align: middle;}
 }
 
 /*RSVP Section*/
-.RSVPPic{
+.RSVP{
+  background-image: url("Images/Cropped4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   position: relative;
+  padding-bottom: 100px;
 }
 
-.RSVPCaption {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  width:100%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  margin: 0 auto;
-
-  padding-top: 20px;
-  padding-bottom: 50px;
-
-  font-size: max(3.5vw,35px);
-  color: white;
-  font-family:"Biancha";
+@media only screen and (max-width: 650px) {
+  .RSVP {background-image: url("Images/Cropped4.1.jpg");}
 }
 
 .RSVPSection{
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    padding-bottom: 30%;
+  padding-bottom: 12%%;
+}
+
+.RSVPCaption{
+  color: white;
+  padding-top:8%;
+  padding-bottom: 8%;
 }
 
 .RSVPText{
-  position: absolute;
-  left: 25%;
-  width:50%;
+  width:30%;
   padding-top: 3%;
-  margin: auto;
+  margin: 0 auto;
+  border-style: double;
+  border-color: #536895;
+  background-color:rgb(191, 203, 220, .6);
 }
 
 .RSVPText a{
@@ -385,14 +378,11 @@ img {vertical-align: middle;}
   border: 1px solid #536895;
 }
 
-.RSVPText2{
-  position: absolute;
-  top: 25%;
-  left: 44%;
-  width: 25%;
-  text-align: justify;
-  font-size: max(1.5vw,15px);
-  line-height: 100%;
+.RSVPText p{
+    font-size: max(1.5vw,15px);
+    width: 75%;
+    margin: 0 auto;
+    padding: 5% 8%;
 }
 
 /*Footer*/
