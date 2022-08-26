@@ -293,6 +293,10 @@ img {vertical-align: middle;}
 
 
 /*Travel & Registry Sections*/
+.TRContainer{
+  padding-top:15px;
+}
+
 .TravelLink, .RegistryLink, .RSVPCaption{
   color: #536895;
   font-size: max(3vw,30px);
