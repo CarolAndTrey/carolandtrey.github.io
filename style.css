@@ -247,7 +247,7 @@ img {vertical-align: middle;}
 .Section{
   margin: 2% auto;
   padding-bottom: 5%;
-  font-size: max(1.8vw,18px);
+  font-size: max(1.2vw,12px);
   line-height: 150%;
   position: relative;
 }
