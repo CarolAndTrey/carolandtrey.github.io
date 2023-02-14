@@ -119,7 +119,7 @@ img {vertical-align: middle;}
 /*Title over the photos */
 .Title{
   position: absolute;
-  top: 23%;
+  top: 73%;
   left: 50%;
   width:100%;
   transform: translate(-50%, -50%);
@@ -315,7 +315,7 @@ padding: 2%;
 }
 
 .MenuText i{
-  color: lightsteelblue;
+  color: rgb(191, 203, 220);
 }
 
 .MenuText h5{
@@ -356,7 +356,7 @@ padding: 2%;
 
 .Travel {
   /* background-color: rgb(191, 203, 220, .3); */
-  background-image: url("Images/Cropped5.1.jpg");
+  background-image: url("Images/Cropped2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -379,7 +379,7 @@ padding: 2%;
 
 /*RSVP Section*/
 .RSVP{
-  background-image: url("Images/Cropped4.jpg");
+  background-image: url("Images/Cropped.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -390,7 +390,7 @@ padding: 2%;
 
 @media only screen and (max-width: 650px) {
   .RSVP {
-    background-image: url("Images/Cropped4.1.jpg");
+    background-image: url("Images/Cropped.jpg");
   }
 }
 
