@@ -292,6 +292,50 @@ img {vertical-align: middle;}
 }
 
 
+/*Menu Details Section*/
+
+
+.MenuDetails{
+background-color: #536895;
+color: white;
+padding: 2%;
+}
+
+.MenuText{
+  font-size: max(1.2vw,12px);
+  line-height: 100%;
+}
+ 
+.MenuDetail{
+  font-size: max(1.5vw,15px);
+}
+
+.MenuText b{
+  font-size: max(1.5vw, 15px);
+}
+
+.MenuText i{
+  color: lightsteelblue;
+}
+
+.MenuText h5{
+  font-size: max(3vw,30px);
+  font-family: "Biancha";
+  /* color: #536895; */
+  font-weight:lighter;
+  margin: 0;
+  padding-top:50px;
+}
+
+.MenuText hr{
+  width: 10%;
+  /* color: #536895; */
+  border: none;
+  border-top: 1px solid;
+}
+
+
+
 /*Travel & Registry Sections*/
 .TRContainer{
   padding-top:15px;
