@@ -174,14 +174,15 @@ img {vertical-align: middle;}
 
 .Menu ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(191, 203, 220, .9);
   font-size: max(.8vw, 10px);
   letter-spacing: .1rem;
   font-variant: small-caps slashed-zero;
 }
 
 .Menu ul li a:hover{
-  color: #e0e6ec;
+  /* color: #e0e6ec; */
+  color: white;
 }
 
 /*Menu for mobile*/
