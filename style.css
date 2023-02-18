@@ -311,10 +311,6 @@ padding: 2%;
   font-size: max(1.5vw,15px);
 }
 
-.MenuText b{
-  font-size: max(1.5vw, 15px);
-}
-
 .MenuText i{
   color: rgb(191, 203, 220);
 }
@@ -333,6 +329,7 @@ padding: 2%;
   /* color: #536895; */
   border: none;
   border-top: 1px solid;
+  margin: -.5em auto;
 }
 
 
