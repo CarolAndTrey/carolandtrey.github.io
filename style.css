@@ -318,7 +318,6 @@ padding: 2%;
 .MenuText h5{
   font-size: max(3vw,30px);
   font-family: "Biancha";
-  /* color: #536895; */
   font-weight:lighter;
   margin: 0;
   padding-top:50px;
@@ -326,11 +325,21 @@ padding: 2%;
 
 .MenuText hr{
   width: 10%;
-  /* color: #536895; */
   border: none;
   border-top: 1px solid;
   margin: -.5em auto;
 }
+
+.DrinkTitle{
+  font-family: "Biancha";
+}
+
+
+.HisHers{
+  float: left;
+  width: 50%;
+}
+
 
 
 
